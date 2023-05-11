@@ -12,7 +12,7 @@ html, body {
     background-color: black;
  }
 
-body {
+body { /* Tela de fundo */
     background: url('../imagens/neutro.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
@@ -23,7 +23,7 @@ main {
     position: relative;
 }
 
-section#telefone {
+section#telefone { /* Imagem do celular */
     height: 627px;
     width: 309px;
     background:  url('../imagens/frame-iphone.png') no-repeat;
@@ -34,7 +34,7 @@ section#telefone {
     transform: translate(-50%, -50%);
 }
 
-iframe#tela {
+iframe#tela { /* Tela do fundo do celular */
     position: relative;
     top: 80px;
     left: 22px;
@@ -42,7 +42,7 @@ iframe#tela {
     height: 472px;
 }
 
-section#redes-sociais img {
+section#redes-sociais img { /* Imagens dos Botões */
     width: 50px;
     margin: 20px;
     border-radius: 50%;
@@ -51,7 +51,7 @@ section#redes-sociais img {
     
 }
 
-section#redes-sociais img:hover {
+section#redes-sociais img:hover { /* Animação dos botões */
     border: 2px solid rgba(255, 255, 255, 0.459);
     transform: translate(-2px, -2px);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.514);
@@ -59,6 +59,6 @@ section#redes-sociais img:hover {
 
 }
 
-section#redes-sociais {
+section#redes-sociais { /* Localização dos botões */
     text-align: right;
 }
