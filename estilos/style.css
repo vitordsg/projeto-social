@@ -43,8 +43,8 @@ iframe#tela { /* Tela do fundo do celular */
 }
 
 section#redes-sociais img { /* Imagens dos Botões */
-    width: 50px;
-    margin: 20px;
+    width: 60px;
+    margin: 70px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
     box-sizing: border-box;
@@ -52,13 +52,17 @@ section#redes-sociais img { /* Imagens dos Botões */
 }
 
 section#redes-sociais img:hover { /* Animação dos botões */
+    
     border: 2px solid rgba(255, 255, 255, 0.459);
-    transform: translate(-10px, -2px);
+    transform: translate(0px, 3px);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.514);
-    transition: transform .5s, border .7s;
+    transition: transform .5s, border .6s;
+    
 
 }
 
 section#redes-sociais { /* Localização dos botões */
-    text-align: right;
+    text-align:center
 }
+
+
