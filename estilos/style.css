@@ -53,7 +53,7 @@ section#redes-sociais img { /* Imagens dos Botões */
 
 section#redes-sociais img:hover { /* Animação dos botões */
     border: 2px solid rgba(255, 255, 255, 0.459);
-    transform: translate(-2px, -2px);
+    transform: translate(-10px, -2px);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.514);
     transition: transform .5s, border .7s;
 
